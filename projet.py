@@ -29,8 +29,13 @@ Ce tableau de bord interactif analyse les données des patients afin de mettre e
 """)
 
 # -------------------- CHARGEMENT DES DONNÉES --------------------
-file_path = r"C:\Users\bouas\Downloads\data_projetpython\healthcare-dataset-stroke-data.csv"
-df = pd.read_csv(file_path)
+import os
+import pandas as pd
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "data", "healthcare-dataset-stroke-data.csv")
+
+df = pd.read_csv(DATA_PATH)
 
 # -------------------- NETTOYAGE --------------------
 df['bmi'].fillna(df['bmi'].median(), inplace=True)
@@ -42,8 +47,8 @@ for col in categorical_cols:
     df[col] = le.fit_transform(df[col])
 
 # Colonnes originales pour certaines visualisations
-df['work_type_original'] = pd.read_csv(file_path)['work_type']
-df['Residence_type_original'] = pd.read_csv(file_path)['Residence_type']
+df['work_type_original'] = df['work_type']
+df['Residence_type_original'] = df['Residence_type']
 
 # -------------------- APERÇU DES DONNÉES --------------------
 st.subheader("Aperçu du dataset")
