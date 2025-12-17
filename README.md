@@ -1,10 +1,42 @@
-# Tableau de bord interactif AVC
+# \# Tableau de bord AVC 🧠
 
-Ce projet est un tableau de bord interactif pour analyser les facteurs de risque d'AVC. 
-Il utilise Streamlit, Pandas, Seaborn et Matplotlib.
+# 
 
-## Comment lancer le projet
-1. Installer les dépendances :
-   pip install -r requirements.txt
-2. Lancer l'application :
-   streamlit run C:\Users\bouas\OneDrive\Desktop\Projet_Python\projet.py
+# Projet Streamlit interactif pour l’analyse des facteurs de risque d’AVC
+
+# à partir de données médicales (âge, BMI, glucose, tabagisme, etc.).
+
+# 
+
+# \## 🔗 Application en ligne
+
+# 👉 https://dashboard-avc.streamlit.app
+
+# 
+
+# \## 📊 Fonctionnalités
+
+# \- Visualisations interactives
+
+# \- Statistiques clés (KPI)
+
+# \- Analyse BMI, glucose, âge
+
+# \- Comparaison Stroke / No Stroke
+
+# 
+
+# \## 🛠️ Technologies
+
+# \- Python
+
+# \- Streamlit
+
+# \- Pandas
+
+# \- Seaborn
+
+# \- Matplotlib
+
+
+
