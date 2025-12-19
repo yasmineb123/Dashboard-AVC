@@ -1,42 +1,33 @@
-# \# Tableau de bord AVC 🧠
+Tableau de bord AVC 🧠
+ Projet Streamlit interactif pour l’analyse des facteurs de risque d’AVC
+ à partir de données médicales (âge, BMI, glucose, tabagisme, etc.).
 
-# 
 
-# Projet Streamlit interactif pour l’analyse des facteurs de risque d’AVC
+🔗 Application en ligne
 
-# à partir de données médicales (âge, BMI, glucose, tabagisme, etc.).
+👉 https://dashboard-avc.streamlit.app
 
-# 
+📊 Fonctionnalités
 
-# \## 🔗 Application en ligne
+ \- Visualisations interactives
 
-# 👉 https://dashboard-avc.streamlit.app
+ \- Statistiques clés (KPI)
 
-# 
+ \- Analyse BMI, glucose, âge
 
-# \## 📊 Fonctionnalités
+\- Comparaison Stroke / No Stroke
 
-# \- Visualisations interactives
+🛠️ Technologies
 
-# \- Statistiques clés (KPI)
+\- Python
 
-# \- Analyse BMI, glucose, âge
+ \- Streamlit
 
-# \- Comparaison Stroke / No Stroke
+\- Pandas
 
-# 
+\- Seaborn
 
-# \## 🛠️ Technologies
-
-# \- Python
-
-# \- Streamlit
-
-# \- Pandas
-
-# \- Seaborn
-
-# \- Matplotlib
+ \- Matplotlib
 
 
 
